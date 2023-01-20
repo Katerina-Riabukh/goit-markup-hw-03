@@ -9,12 +9,17 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="border-section">
       <!-- Logo -->
-      <div class="conteiner logo-nav">
+      <div class="container logo-nav pad-top-btm">
         <a href="index.html" class="link logo-head"
           ><span class="web">WEB</span>Studio</a
         >
@@ -32,10 +37,10 @@
         <!-- Contacts of Web Studio -->
         <address>
           <ul class="list address-nav">
-            <li>
+            <li class="nav-item">
               <a class="link" href="tel:+110001111111">+11 (000) 111-11-11</a>
             </li>
-            <li>
+            <li class="nav-item">
               <a class="link" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
@@ -48,7 +53,7 @@
     <main>
       <!--Page navigation-->
       <section>
-        <div class="conteiner">
+        <div class="container pad-top-btm">
           <h1 class="visually-hidden">Our services</h1>
           <ul class="list choice-button">
             <li class="button-item">
@@ -69,7 +74,7 @@
           </ul>
         </div>
         <!-- Project cards -->
-        <div class="conteiner conteiner-pad-bot">
+        <div class="container pad-top">
           <ul class="list list-choice">
             <li class="choice-card">
               <img
@@ -79,7 +84,7 @@
                 width="360"
                 height="300"
               />
-              <div class="card-discript">
+              <div class="card-descript">
                 <h2 class="subtitle">Banking App Interface Concept</h2>
                 <p class="text">App</p>
               </div>
@@ -92,7 +97,7 @@
                 width="360"
                 height="300"
               />
-              <div class="card-discript">
+              <div class="card-descript">
                 <h2 class="subtitle">Cashless Payment</h2>
                 <p class="text">Marketing</p>
               </div>
@@ -105,7 +110,7 @@
                 width="360"
                 height="300"
               />
-              <div class="card-discript">
+              <div class="card-descript">
                 <h2 class="subtitle">Meditation App</h2>
                 <p class="text">App</p>
               </div>
@@ -118,7 +123,7 @@
                 width="360"
                 height="300"
               />
-              <div class="card-discript">
+              <div class="card-descript">
                 <h2 class="subtitle">Taxi Service</h2>
                 <p class="text">Marketing</p>
               </div>
@@ -131,7 +136,7 @@
                 width="360"
                 height="300"
               />
-              <div class="card-discript">
+              <div class="card-descript">
                 <h2 class="subtitle">Screen Illustrations</h2>
                 <p class="text">Design</p>
               </div>
@@ -144,7 +149,7 @@
                 width="360"
                 height="300"
               />
-              <div class="card-discript">
+              <div class="card-descript">
                 <h2 class="subtitle">Online Courses</h2>
                 <p class="text">Marketing</p>
               </div>
@@ -157,7 +162,7 @@
                 width="360"
                 height="300"
               />
-              <div class="card-discript">
+              <div class="card-descript">
                 <h2 class="subtitle">Instagram Stories Concept</h2>
                 <p class="text">Design</p>
               </div>
@@ -170,7 +175,7 @@
                 width="360"
                 height="300"
               />
-              <div class="card-discript">
+              <div class="card-descript">
                 <h2 class="subtitle">Organic Food</h2>
                 <p class="text">Web Site</p>
               </div>
@@ -183,7 +188,7 @@
                 width="360"
                 height="300"
               />
-              <div class="card-discript">
+              <div class="card-descript">
                 <h2 class="subtitle">Fresh Coffee</h2>
                 <p class="text">Web Site</p>
               </div>
@@ -193,14 +198,16 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="conteiner">
+      <div class="container">
         <a class="link logo-foot" href="index.html"
           ><span class="web">WEB</span>Studio</a
         >
-        <p class="text text-foot">
-          Increase the flow of customers and sales for your business with
-          digital marketing & growth solutions.
-        </p>
+        <div class="logo-descript">
+          <p class="text text-foot">
+            Increase the flow of customers and sales for your business with
+            digital marketing & growth solutions.
+          </p>
+        </div>
       </div>
     </footer>
   </body>
