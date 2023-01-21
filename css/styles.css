@@ -96,26 +96,29 @@ body {
     color: var(--secondary-text-color);
 }
 
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .container {
     width: 1158px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    padding-bottom: 120px;
-    padding-top: 120px;
 
     /* outline: 2px solid red; */
 }
 
-.pad-top {
+/* .pad-top {
     padding-top: 0px;
 }
 
 .pad-top-btm {
     padding-top: 0px;
     padding-bottom: 0px;
-}
+} */
 
 .image {
     display: block;
@@ -179,10 +182,6 @@ body {
     margin-left: 40px;
 }
 
-/* .nav-item:not(:last-child) {
-    margin-right: 40px;
-} */
-
 /* Address */
 .address-nav {
     display: flex;
@@ -207,24 +206,20 @@ body {
 */
 .hero {
     background-color: #2E2F42;
-}
-
-.hero-section {
-    width: 1440px;
-    text-align: center;
     padding-top: 188px;
-    padding-bottom: 292px;
-    padding-left: 473px;
-    padding-right: 473px;
+    padding-bottom: 188px;
+    text-align: center;
 }
 
 .hero-title {
+    width: 494px;
+    margin-left: auto;
+    margin-right: auto;
+
     font-weight: 700;
     font-size: 56px;
     line-height: calc(60 / 56);
     color: var(--hero-text-color);
-    margin-top: 0px;
-    margin-bottom: 48px;
 
 }
 
@@ -280,6 +275,10 @@ body {
     background-color: #FFFFFF;
 }
 
+.pad-top {
+    padding-top: 0px;
+}
+
 .doing-list {
     display: flex;
     flex-wrap: wrap;
@@ -323,7 +322,8 @@ body {
 
 .footer {
     background-color: #2E2F42;
-    min-height: 310px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .logo-descript {
@@ -338,6 +338,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     padding-bottom: 0px;
+    padding-top: 0px;
     margin-bottom: 16px;
 }
 
@@ -383,6 +384,11 @@ body {
     margin-left: 24px;
 }
 
+.button-item {
+    margin-top: 96px;
+    margin-bottom: 72px;
+}
+
 .button-nav:hover,
 .button-nav:focus {
     background-color: var(--accent-color);
@@ -392,15 +398,12 @@ body {
 .choice-button {
     display: flex;
     justify-content: center;
-    padding-top: 96px;
-    padding-bottom: 72px;
 }
 
 /* Choice Cards */
 .list-choice {
     display: flex;
     flex-wrap: wrap;
-    row-gap: 24px;
 }
 
 .choice-card {
