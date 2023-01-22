@@ -57,7 +57,6 @@ body {
     text-decoration: none;
     font-style: normal;
 
-
 }
 
 .list {
@@ -215,10 +214,12 @@ body {
 }
 
 .hero-title {
+    margin: 0px;
     width: 494px;
     margin-left: auto;
     margin-right: auto;
 
+    margin-bottom: 48px;
     font-weight: 700;
     font-size: 56px;
     line-height: calc(60 / 56);
@@ -392,11 +393,6 @@ body {
     margin-left: 24px;
 }
 
-.button-item {
-    margin-top: 96px;
-    margin-bottom: 72px;
-}
-
 .button-nav:hover,
 .button-nav:focus {
     background-color: var(--accent-color);
@@ -406,6 +402,8 @@ body {
 .choice-button {
     display: flex;
     justify-content: center;
+    margin-top: 96px;
+    margin-bottom: 72px;
 }
 
 /* Choice Cards */
